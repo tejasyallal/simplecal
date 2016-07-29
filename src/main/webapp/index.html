@@ -1,0 +1,39 @@
+<html>
+  
+<head>
+    <title></title>
+</head>
+<body>
+  <h1>Tejas Yallal</h1>
+<form>
+<br>enter 2 values:
+<br><br><input type="number" id="a">
+<br><br><input type="number" id="b">
+
+<input type="button" value="add" onclick="add();">
+</form>
+  <div id="results">
+  
+  </div>
+    
+  
+  
+  
+  
+
+<script>
+  function add()
+  {
+var a=document.getElementById("a").value;
+var b=document.getElementById("b").value;
+var c= +a+ +b;
+alert("the sum = "+c);
+  document.getElementById("results").innerText=c;
+  
+  
+  }
+  </script>
+
+</body>
+
+</html>
